@@ -9,11 +9,6 @@
 
 /*----------ALLTHEPAGES---------*/
 
-body{
-    position: relative;
-
-}
-
 ul{
     list-style: none;
 }
@@ -51,7 +46,6 @@ header nav ul{
     align-items: start;
 }
 
-
 header nav ul li a{
     font-family: 'Gochi Hand', cursive;
     font-size: 20px;
@@ -69,11 +63,13 @@ header nav ul a:hover{
 }
 
 
+
 /*-------------------------------FOOTER----------------------*/
 
 footer{
     background-color: black;
     width: 100%;
+    /* bottom: 0; */
     display: flex;
     flex-direction: column;
 }
@@ -228,7 +224,6 @@ footer p{
 
 .descripcion h2{
     height: 50px;
-    /* margin-top: 150px; */
     font-family: 'Gochi Hand', cursive;
     font-size: 40px;
     color: whitesmoke;
@@ -236,7 +231,6 @@ footer p{
 
 .descripcion h3{
     height: 50px;
-    /* margin-top: 150px; */
     font-family: 'Gochi Hand', cursive;
     font-size: 40px;
     color: whitesmoke;
@@ -554,7 +548,79 @@ footer p{
     transform: scale(1.15);
 }
 
-
+/*------Backup-----*/
+/* .onetwo{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    .apple{
+        justify-content: center;
+        align-items: center;
+        a{
+            img{
+                width: 350px;
+                height: 250px;
+                border: solid black;
+                border-radius: 20px;
+                margin-top: 20px;
+                margin-left: 150px;
+                transition: all .3s;
+                &:hover{
+                    transform: scale(1.15);
+                }
+            }
+        }
+    }
+    .samsung{
+        a{
+            img{
+                width: 350px;
+                height: 250px;
+                border: solid black;
+                border-radius: 20px;
+                margin-top: 20px;
+                margin-left: 100px;
+                transition: all .3s;
+                &:hover{
+                    transform: scale(1.15);
+                }
+            }
+        }
+    }
+    .despegar{
+        a{
+            img{
+                width: 350px;
+                height: 250px;
+                border: solid black;
+                border-radius: 20px;
+                margin-top: 50px;
+                margin-left: 150px;
+                margin-bottom: 50px;
+                transition: all .3s;
+                &:hover{
+                    transform: scale(1.15);
+                }
+            }
+        }
+    }
+    .amazon{
+        a{
+            img{
+                width: 350px;
+                height: 250px;
+                border: solid black;
+                border-radius: 20px;
+                margin-top: 50px;
+                margin-left: 100px;
+                margin-bottom: 50px;
+                transition: all .3s;
+                &:hover{
+                    transform: scale(1.15);
+                }
+            }
+        }
+    }
+} */
 
 /*---------------------------------------Contact-------------------------------*/
 
@@ -635,16 +701,8 @@ footer p{
     color: #851621;
 }
 
+/*---------mediaqueries-----*/
 
-/* .forma{
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    color: beige;
-    margin: 100px 100px 100px 100px;
-    height: 200px;
-    font-size: 30px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-} */
+@media screen and (850px){
+    
+}

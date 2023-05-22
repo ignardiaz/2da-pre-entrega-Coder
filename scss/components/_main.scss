@@ -1,0 +1,496 @@
+/*-------- INICIO MAIN INDEX--------*/
+
+.principal{
+    width: 100%;
+    .hero{
+        background-image: url("../img/porfin.jpg");
+        width: 100%;
+        height: 700px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        color: whitesmoke;
+        p{
+            font-family: 'Poppins', sans-serif;
+        color: whitesmoke;
+        font-size: 20px;
+        justify-content: center;
+        padding-top: 200px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        }
+        .enunciado{
+            font-family: 'Gochi Hand', cursive;
+            width: 80%;
+            height: 200px;
+            margin: auto;
+            padding-top: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+            h2{
+                span{
+                    font-size: 30px;
+                    color: #851621;
+                    
+                }
+            }
+        }
+    }
+
+    .bienvenida{
+        background-color: white;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        color: black;
+        display: flex;
+        justify-content:space-evenly;
+        margin-top: 50px;
+        div{
+            img{
+                width: 300px;
+                height: 400px;
+                border: solid gray;
+                border-radius: 20px;
+            }
+        }
+        p{
+            text-align: center;
+            margin-top: 20px;
+            width: 50%;
+        }
+    }
+}
+/*--------- FINAL MAIN INDEX------*/
+
+/*---------- INICIO MAIN ABOUT--------*/
+
+.about{
+    background-image: url(../img/porfin.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    .picture{
+        img{
+            width: 300px;
+            height: 300px;
+            border: solid gray;
+            border-radius: 10px;
+            margin: 90px 0 30px 100px;
+        }
+    }
+    .descripcion{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+        margin-left: 20px;
+        h2{
+            height: 50px;
+            font-family: 'Gochi Hand', cursive;
+            font-size: 40px;
+            color: whitesmoke;
+            margin-bottom: 20px;
+        }
+        h3{
+            height: 50px;
+            font-family: 'Gochi Hand', cursive;
+            font-size: 40px;
+            color: whitesmoke;
+            margin-bottom: 20px;
+        }
+        a{
+            width: 100px;
+            height: 20px;
+            background-color: gray;
+            font-family: 'Gochi Hand', cursive;
+            color: whitesmoke;
+            font-size: 10px;
+            border: solid 2px black;
+            border-radius: 5px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            padding: 5px;
+            transition: .5s;
+            &:hover{
+                color:#851621;
+            }
+        }
+    }
+}
+
+.aboutskills{
+    background-color: gray;
+    width: 100%;
+    height: 500px;
+    h2{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        color: black;
+        padding: 30px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+    .skills{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        &:hover > :not( :hover){
+            opacity:.4;
+            transform: scale(0.9);
+        }
+        .html{
+            font-family: 'Gochi Hand', cursive;
+            font-size: 20px;
+            color: beige;
+            border: solid 2px #851621;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1;
+            transition: .3s all ease;
+            margin-left: 10px;
+            &:hover{
+                flex: 2;
+                background-color: #851621;
+            }
+        }
+        .css{
+            font-family: 'Gochi Hand', cursive;
+            font-size: 20px;
+            color: beige;
+            border: solid 2px #851621;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1;
+            transition: .3s all ease;
+            margin-left: 10px;
+            &:hover{
+                flex: 2;
+                background-color: #851621;
+            }
+        }
+        .javascript{
+            font-family: 'Gochi Hand', cursive;
+            font-size: 20px;
+            color: beige;
+            border: solid 2px #851621;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1;
+            transition: .3s all ease;
+            margin-left: 10px;
+            &:hover{
+                flex: 2;
+                background-color: #851621;
+            }
+        }
+        .java{
+            font-family: 'Gochi Hand', cursive;
+            font-size: 20px;
+            color: beige;
+            border: solid 2px #851621;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1;
+            transition: .3s all ease;
+            margin-left: 10px;
+            &:hover{
+                flex: 2;
+                background-color: #851621;
+            }
+        }
+        .python{
+            font-family: 'Gochi Hand', cursive;
+            font-size: 20px;
+            color: beige;
+            border: solid 2px #851621;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1;
+            transition: .3s all ease;
+            margin-left: 10px;
+            &:hover{
+                flex: 2;
+                background-color: #851621;
+            }
+        }
+        .reactjs{
+            font-family: 'Gochi Hand', cursive;
+            font-size: 20px;
+            color: beige;
+            border: solid 2px #851621;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1;
+            transition: .3s all ease;
+            margin-left: 10px;
+            &:hover{
+                flex: 2;
+                background-color: #851621;
+            }
+        }
+    }
+}
+/*-----------FINAL MAIN ABOUT---------*/
+
+/*--------INICIO MAIN SERVICES------*/
+
+.services{
+    background-image: url(../img/porfin.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    h2{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        color: whitesmoke;
+        padding: 30px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+    .jobs{
+        text-align: center;
+        color: beige(224, 210, 210);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 20px;
+        margin-top: 100px;
+        .designer{
+            font-family: 'Gochi Hand', cursive;
+            font-size: 30px;
+            color: #851621;
+            img{
+                margin-top: 20px;
+                width: 350px;
+                height: 200px;
+                border: solid;
+                border-radius: 10px;
+                color: white;
+                transition: all .3s;
+                &:hover{
+                    transform: scale(1.15);
+                }
+            }
+        }
+        .backend{
+            font-family: 'Gochi Hand', cursive;
+            font-size: 30px;
+            color: #851621;
+            img{
+                margin-top: 20px;
+                width: 350px;
+                height: 200px;
+                border: solid;
+                border-radius: 10px;
+                color: white;
+                transition: all .3s;
+                &:hover{
+                    transform: scale(1.15);
+                }
+            }
+        }
+        .frontend{
+            font-family: 'Gochi Hand', cursive;
+            font-size: 30px;
+            color: #851621;
+            img{
+                margin-top: 20px;
+                width: 350px;
+                height: 200px;
+                border: solid;
+                border-radius: 10px;
+                color: white;
+                transition: all .3s;
+                &:hover{
+                    transform: scale(1.15);
+                }
+            }
+        }
+    }
+}
+/*--------FIN MAIN SERVICE-----*/
+
+/*--------INICIO MAIN PORTFOLIO-------*/
+
+.portfolio{
+    background-image: url("../img/porfin.jpg");
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    h2{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        color: whitesmoke;
+        padding: 30px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+    .por{
+        .onetwo{
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            .apple{
+                a{
+                    img{
+                        width: 350px;
+                        height: 250px;
+                        border: solid black;
+                        border-radius: 20px;
+                        margin-top: 20px;
+                        margin-left: 150px;
+                        transition: all .3s;
+                        &:hover{
+                            transform: scale(1.15);
+                        }
+                    }
+                }
+            }
+            .samsung{
+                a{
+                    img{
+                        width: 350px;
+                        height: 250px;
+                        border: solid black;
+                        border-radius: 20px;
+                        margin-top: 20px;
+                        margin-left: 100px;
+                        transition: all .3s;
+                        &:hover{
+                            transform: scale(1.15);
+                        }
+                    }
+                }
+            }
+            .despegar{
+                a{
+                    img{
+                        width: 350px;
+                        height: 250px;
+                        border: solid black;
+                        border-radius: 20px;
+                        margin-top: 50px;
+                        margin-left: 150px;
+                        margin-bottom: 50px;
+                        transition: all .3s;
+                        &:hover{
+                            transform: scale(1.15);
+                        }
+                    }
+                }
+            }
+            .amazon{
+                a{
+                    img{
+                        width: 350px;
+                        height: 250px;
+                        border: solid black;
+                        border-radius: 20px;
+                        margin-top: 50px;
+                        margin-left: 100px;
+                        margin-bottom: 50px;
+                        transition: all .3s;
+                        &:hover{
+                            transform: scale(1.15);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*--------FIN MAIN PORTFOLIO-----*/
+
+/*--------INICIO MAIN CONTACTO-------*/
+
+.contact{
+    background-image: url("../img/porfin.jpg");
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    h2{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        color: whitesmoke;
+        padding: 30px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+/*---------- Bootstrap-------*/
+
+    .input{
+        width: 70%;
+        height: 400px;
+        font-family: 'Gochi Hand', cursive;
+        font-size: 30px;
+        color: #851621;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .mb-3{
+            width: 300px;
+            height: 200px;
+        }
+        .mb-4{
+            width: 300px;
+            height: 200px;
+        }
+        .botones{
+            .submit{
+                width: 100px;
+                height: 40px;
+                font-family: 'Gochi Hand', cursive;
+                font-size: 20px;
+                color: rgb(172, 172, 182);
+                border: solid rgb(172, 172, 182) 1px;
+                border-radius: 5px;
+                padding: 5px;
+                background: rgba(172, 172, 182, 0.40);
+                transition: .5s;
+                &:hover{
+                    color: #851621;
+                }
+            }
+            .reset{
+                width: 120px;
+                height: 40px;
+                font-family: 'Gochi Hand', cursive;
+                font-size: 20px;
+                color: rgb(172, 172, 182);
+                border: solid rgb(172, 172, 182) 1px;
+                border-radius: 5px;
+                padding: 5px;
+                background: rgba(172, 172, 182, 0.40);
+                transition: .5s;
+                &:hover{
+                    color: #851621;
+                }
+            }
+        }
+    }
+}

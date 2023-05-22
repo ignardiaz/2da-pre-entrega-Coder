@@ -1,0 +1,363 @@
+
+
+@media screen and (max-width: 1200px){
+
+//*----SERVICES-----*//
+    .services{
+        height: 1000px;
+        .jobs{
+            grid-template-columns: repeat(1, 1fr);
+            margin-top: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+//*-----PORTFOLIO-----*//
+
+    .portfolio{
+        .por{
+            .onetwo{
+                .apple{
+                    a{
+                        img{
+                            margin-left: 100px;
+                            width: 300px;
+                            height: 200px;
+                        }
+                    }
+                }
+                .samsung{
+                    a{
+                        img{
+                            margin-left: 0;
+                            width: 300px;
+                            height: 200px;
+                        }
+                    }
+                }
+                .despegar{
+                    height: 230px;
+                    a{
+                        img{
+                            margin-left: 100px;
+                            width: 300px;
+                            height: 200px;
+                        }
+                    }
+                }
+                .amazon{
+                    a{
+                        img{
+                            margin-left: 0;
+                            width: 300px;
+                            height: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 830px){
+
+//*----HEADER-----*//
+
+    header nav ul li a{
+        display: flex;
+        justify-content: center;
+        font-family: 'Gochi Hand', cursive;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 20px;
+        border: solid rgb(172, 172, 182) 1px;
+        border-radius: 2px;
+    }
+    .titulo{ 
+        font-family: 'Gochi Hand', cursive;
+        font-size: 20px;
+    }
+    .enunciado h2{
+        font-size: 15px;
+    }
+    .bienvenida{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        p{
+            font-size: 20px;
+        }
+    }
+
+//*---ABOUT---*//
+    .about{
+        .picture{
+            img{
+                width: 200px;
+                height: 300px;
+            }
+        }
+        .descripcion{
+            flex-direction: column;
+            height: 300px;
+            width: 400px;
+            h2{
+                height: 70px;
+            }
+        } 
+    }
+    .aboutskills{
+        h2{
+            height: 70px;
+            font-size: 30px;
+            padding: 10px;
+        }
+        .skills{
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 5px;
+        }
+    }
+
+//*-----PORTFOLIO-----*//
+
+    .portfolio{
+        height: 1200px;
+        .por{
+            .onetwo{
+                grid-template-columns: repeat(1, 1fr);
+                .apple{
+                    margin: 5px;
+                    a{
+                        img{
+                            width: 250px;
+                            height: 200px;
+                        }
+                    }
+                }
+                .samsung{
+                    margin: 5px 0 5px 100px;
+                    a{
+                        img{
+                            width: 250px;
+                            height: 200px;
+                        }
+                    }
+                }
+                .despegar{
+                    margin: 0;
+                    a{
+                        img{
+                            width: 250px;
+                            height: 200px;
+                        }
+                    }
+                }
+                .amazon{
+                    margin: 5px 0 5px 100px;
+                    a{
+                        img{
+                            width: 250px;
+                            height: 200px;
+                        }
+                    }
+                }   
+            }
+        }
+    }
+}
+    
+
+
+@media screen and (max-width: 600px){
+
+//*----HEADER----*//
+
+    header nav ul li a{
+        font-size: 10px;
+        margin-left: 5px;
+        margin-right: 10px;
+        border: solid rgb(172, 172, 182) 1px;
+    }
+
+//*----ABOUT----*//
+    .about{
+        flex-direction: column;
+        align-items: center;
+        .picture{
+            width: 300px;
+            height: 200px;
+            margin: 50px 50% 0;
+            img{
+                width: 300px;
+                height: 200px;
+                margin: 0px 50px 50px 0;
+            }
+        }
+        .descripcion{
+            flex-direction: column;
+            align-items: center;
+            height: 200px;
+            margin-top: 5px;
+            h2{
+                font-size: 30px;
+                height: 40px;
+            }
+            h3{
+                font-size: 30px;
+                height: 20px;
+            }
+        }
+    }
+    
+
+    .aboutskills{
+        height: 750px;
+        .skills{
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 100px;
+            grid-row-gap: 0px;
+        }
+    }
+
+//*----SERVICES-----*//
+
+    .services{
+        height: 800px;
+        h2{
+            font-size: 30px;
+        }
+        .jobs{
+            .designer{
+                h3{
+                    font-size: 20px;
+                }
+                img{
+                    width: 300px;
+                    height: 150px;
+                }
+            }
+            .backend{
+                h3{
+                    font-size: 20px;
+                }
+                img{
+                    width: 300px;
+                    height: 150px;
+                }
+            }
+            .frontend{
+                h3{
+                    font-size: 20px;
+                }
+                img{
+                    width: 300px;
+                    height: 150px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px){
+
+//*----HEADER----*//
+
+    header nav ul li a{
+        font-size: 10px;
+        margin-right: 5px;
+        margin-left: 1px;
+    }
+
+//*----ABOUT----*//
+    .about{
+        .picture{
+            width: 250px;
+            height: 150px;
+            margin: 50px 50% 0;
+            img{
+                width: 250px;
+                height: 150px;
+                margin: 0px 50px 50px 0;
+            }
+        }
+    }
+
+//*----SERVICES-----*//
+
+    .services{
+        height: 800px;
+        h2{
+            font-size: 20px;
+        }
+        .jobs{
+            .designer{
+                img{
+                    width: 250px;
+                    height: 150px;
+                }
+            }
+            .backend{
+                img{
+                    width: 250px;
+                    height: 150px;
+                }
+            }
+            .frontend{
+                img{
+                    width: 250px;
+                    height: 150px;
+                }
+            }
+        }
+    }
+
+//*-----PORTFOLIO-----*//
+
+    .portfolio{
+        height: 1000px;
+        .por{
+            .onetwo{
+                grid-template-columns: repeat(1, 1fr);
+                .apple{
+                    margin: 5px;
+                    a{
+                        img{
+                            width: 200px;
+                            height: 150px;
+                        }
+                    }
+                }
+                .samsung{
+                    margin: 5px 0 5px 100px;
+                    a{
+                        img{
+                            width: 200px;
+                            height: 150px;
+                        }
+                    }
+                }
+                .despegar{
+                    margin: 0;
+                    a{
+                        img{
+                            width: 200px;
+                            height: 150px;
+                        }
+                    }
+                }
+                .amazon{
+                    margin: 5px 0 5px 100px;
+                    a{
+                        img{
+                            width: 200px;
+                            height: 150px;
+                        }
+                    }
+                }   
+            }
+        }
+    }
+}
