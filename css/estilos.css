@@ -402,7 +402,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 5px; }
   .contact .input {
-    width: 70%;
+    width: 90%;
     height: 400px;
     font-family: 'Gochi Hand', cursive;
     font-size: 30px;
@@ -411,10 +411,10 @@ header {
     flex-direction: column;
     align-items: center; }
     .contact .input .mb-3 {
-      width: 300px;
+      width: 250px;
       height: 200px; }
     .contact .input .mb-4 {
-      width: 300px;
+      width: 250px;
       height: 200px; }
     .contact .input .botones .submit {
       width: 100px;
