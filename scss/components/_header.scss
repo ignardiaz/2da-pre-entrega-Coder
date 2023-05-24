@@ -2,9 +2,7 @@ header{
     background-color: nth($colores, 2);
     width: 100%;
     height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex (flex, space-between, center);
     div{
         width: 15%;
         .logo{
@@ -24,7 +22,7 @@ header{
             li{
                 a{
                     font-family: 'Gochi Hand', cursive;
-                    font-size: 20px;
+                    font-size: nth($font-size, 3);
                     color: nth($colores, 4);
                     margin: 10px 40px 10px;
                     border: solid nth($colores, 4) 1px;

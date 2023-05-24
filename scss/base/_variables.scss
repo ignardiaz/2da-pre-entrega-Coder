@@ -14,4 +14,13 @@ $font-size:
 20px,
 30px,
 40px,
-50px,
+50px;
+
+
+//* MIXINS
+
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}

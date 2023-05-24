@@ -28,13 +28,11 @@
             height: 200px;
             margin: auto;
             padding-top: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 50px;
+            @include flex (flex, center, center);
+            font-size: nth($font-size, 4);
             h2{
                 span{
-                    font-size: 30px;
+                    font-size: nth($font-size, 4);
                     color: nth($colores, 3);
                     
                 }
@@ -99,14 +97,14 @@
         h2{
             height: 50px;
             font-family: 'Gochi Hand', cursive;
-            font-size: 40px;
+            font-size: nth($font-size, 5);
             color: nth($colores, 1);
             margin-bottom: 20px;
         }
         h3{
             height: 50px;
             font-family: 'Gochi Hand', cursive;
-            font-size: 40px;
+            font-size: nth($font-size, 5);
             color: nth($colores, 1);
             margin-bottom: 20px;
         }
@@ -116,7 +114,7 @@
             background-color: nth($colores, 5);
             font-family: 'Gochi Hand', cursive;
             color: nth($colores, 1);
-            font-size: 10px;
+            font-size: nth($font-size, 1);
             border: solid 2px nth($colores, 2);
             border-radius: 5px;
             text-transform: uppercase;
@@ -137,8 +135,8 @@
     h2{
         text-align: center;
         font-family: 'Poppins', sans-serif;
-        font-size: 40px;
-        color: nth($colores, 2);
+        font-size: nth ($font-size, 6);
+        color: nth ($colores, 2);
         padding: 30px;
         text-transform: uppercase;
         letter-spacing: 5px;
@@ -154,7 +152,7 @@
         }
         .html{
             font-family: 'Gochi Hand', cursive;
-            font-size: 20px;
+            font-size: nth($font-size, 3);
             color: nth($colores, 6);
             border: solid 2px nth($colores, 3);
             border-radius: 10px;
@@ -169,7 +167,7 @@
         }
         .css{
             font-family: 'Gochi Hand', cursive;
-            font-size: 20px;
+            font-size: nth($font-size, 3);
             color: nth($colores, 6);
             border: solid 2px nth($colores, 3);
             border-radius: 10px;
@@ -184,7 +182,7 @@
         }
         .javascript{
             font-family: 'Gochi Hand', cursive;
-            font-size: 20px;
+            font-size: nth($font-size, 3);
             color: nth($colores, 6);
             border: solid 2px nth($colores, 3);
             border-radius: 10px;
@@ -199,7 +197,7 @@
         }
         .java{
             font-family: 'Gochi Hand', cursive;
-            font-size: 20px;
+            font-size: nth($font-size, 3);
             color: nth($colores, 6);
             border: solid 2px nth($colores, 3);
             border-radius: 10px;
@@ -214,7 +212,7 @@
         }
         .python{
             font-family: 'Gochi Hand', cursive;
-            font-size: 20px;
+            font-size: nth($font-size, 3);
             color: nth($colores, 6);
             border: solid 2px nth($colores, 3);
             border-radius: 10px;
@@ -229,7 +227,7 @@
         }
         .reactjs{
             font-family: 'Gochi Hand', cursive;
-            font-size: 20px;
+            font-size: nth($font-size, 3);
             color: nth($colores, 6);
             border: solid 2px nth($colores, 3);
             border-radius: 10px;
@@ -259,7 +257,7 @@
     h2{
         text-align: center;
         font-family: 'Poppins', sans-serif;
-        font-size: 40px;
+        font-size: nth($font-size, 5);
         color: nth($colores, 1);
         padding: 30px;
         text-transform: uppercase;
@@ -274,7 +272,7 @@
         margin-top: 100px;
         .designer{
             font-family: 'Gochi Hand', cursive;
-            font-size: 30px;
+            font-size: nth($font-size, 4);
             color: nth($colores, 3);
             img{
                 margin-top: 20px;
@@ -291,7 +289,7 @@
         }
         .backend{
             font-family: 'Gochi Hand', cursive;
-            font-size: 30px;
+            font-size: nth($font-size, 4);
             color: nth($colores, 3);
             img{
                 margin-top: 20px;
@@ -308,7 +306,7 @@
         }
         .frontend{
             font-family: 'Gochi Hand', cursive;
-            font-size: 30px;
+            font-size: nth($font-size, 4);
             color: nth($colores, 3);
             img{
                 margin-top: 20px;
@@ -340,7 +338,7 @@
     h2{
         text-align: center;
         font-family: 'Poppins', sans-serif;
-        font-size: 40px;
+        font-size: nth($font-size, 5);
         color: nth($colores, 1);
         padding: 30px;
         text-transform: uppercase;
@@ -434,7 +432,7 @@
     h2{
         text-align: center;
         font-family: 'Poppins', sans-serif;
-        font-size: 40px;
+        font-size: nth($font-size, 4);
         color: nth($colores, 1);
         padding: 30px;
         text-transform: uppercase;
@@ -447,7 +445,7 @@
         width: 90%;
         height: 400px;
         font-family: 'Gochi Hand', cursive;
-        font-size: 30px;
+        font-size: nth($font-size, 3);
         color: nth($colores, 3);
         display: flex;
         flex-direction: column;
@@ -465,7 +463,7 @@
                 width: 100px;
                 height: 40px;
                 font-family: 'Gochi Hand', cursive;
-                font-size: 20px;
+                font-size: nth($font-size, 3);
                 color: nth($colores, 5);
                 border: solid nth($colores, 5) 1px;
                 border-radius: 5px;
@@ -480,7 +478,7 @@
                 width: 120px;
                 height: 40px;
                 font-family: 'Gochi Hand', cursive;
-                font-size: 20px;
+                font-size: nth($font-size, 3);
                 color: nth($colores, 5);
                 border: solid nth($colores, 5) 1px;
                 border-radius: 5px;
