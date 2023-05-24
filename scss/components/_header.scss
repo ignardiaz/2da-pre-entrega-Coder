@@ -1,5 +1,5 @@
 header{    
-    background-color: black;
+    background-color: nth($colores, 2);
     width: 100%;
     height: 70px;
     display: flex;
@@ -11,7 +11,7 @@ header{
             .titulo{
                 font-family: 'Gochi Hand', cursive;
                 font-weight: 200px;
-                color: #851621;
+                color: nth($colores, 3);
                 padding-left: 20px;
                 align-items: start;
             }
@@ -25,15 +25,15 @@ header{
                 a{
                     font-family: 'Gochi Hand', cursive;
                     font-size: 20px;
-                    color: rgb(172, 172, 182);
+                    color: nth($colores, 4);
                     margin: 10px 40px 10px;
-                    border: solid rgb(172, 172, 182) 1px;
+                    border: solid nth($colores, 4) 1px;
                     border-radius: 5px;
                     padding: 5px;
                     background: rgba(172, 172, 182, 0.40);
                     transition: .5s;
                     &:hover{
-                        color:#851621;
+                        color: nth($colores, 3);
                     }
                 }
             }
