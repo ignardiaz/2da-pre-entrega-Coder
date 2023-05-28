@@ -34,7 +34,7 @@ header {
     width: 70%; }
     header nav ul li a {
       font-family: 'Gochi Hand', cursive;
-      font-size: 30px;
+      font-size: 20px;
       color: #acacb6;
       margin: 10px 40px 10px;
       border: solid #acacb6 1px;
@@ -76,9 +76,9 @@ header {
       display: flex;
       justify-content: center;
       align-items: center;
-      font-size: 40px; }
+      font-size: 30px; }
       .principal .hero .enunciado h2 span {
-        font-size: 40px;
+        font-size: 30px;
         color: #851621; }
   .principal .bienvenida {
     background-color: whitesmoke;
@@ -127,13 +127,13 @@ header {
     .about .descripcion h2 {
       height: 50px;
       font-family: 'Gochi Hand', cursive;
-      font-size: 50px;
+      font-size: 40px;
       color: whitesmoke;
       margin-bottom: 20px; }
     .about .descripcion h3 {
       height: 50px;
       font-family: 'Gochi Hand', cursive;
-      font-size: 50px;
+      font-size: 40px;
       color: whitesmoke;
       margin-bottom: 20px; }
     .about .descripcion a {
@@ -142,7 +142,7 @@ header {
       background-color: gray;
       font-family: 'Gochi Hand', cursive;
       color: whitesmoke;
-      font-size: 12px;
+      font-size: 10px;
       border: solid 2px black;
       border-radius: 5px;
       text-transform: uppercase;
@@ -159,7 +159,7 @@ header {
   .aboutskills h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: nth 12px, 20px, 30px, 40px, 50px, 6;
+    font-size: nth 10px, 12px, 20px, 30px, 40px, 50px, 6;
     color: nth whitesmoke, black, #851621, #acacb6, gray, beige, white, 2;
     padding: 30px;
     text-transform: uppercase;
@@ -173,7 +173,7 @@ header {
       transform: scale(0.9); }
     .aboutskills .skills .html {
       font-family: 'Gochi Hand', cursive;
-      font-size: 30px;
+      font-size: 20px;
       color: beige;
       border: solid 2px #851621;
       border-radius: 10px;
@@ -186,7 +186,7 @@ header {
         background-color: #851621; }
     .aboutskills .skills .css {
       font-family: 'Gochi Hand', cursive;
-      font-size: 30px;
+      font-size: 20px;
       color: beige;
       border: solid 2px #851621;
       border-radius: 10px;
@@ -199,7 +199,7 @@ header {
         background-color: #851621; }
     .aboutskills .skills .javascript {
       font-family: 'Gochi Hand', cursive;
-      font-size: 30px;
+      font-size: 20px;
       color: beige;
       border: solid 2px #851621;
       border-radius: 10px;
@@ -212,7 +212,7 @@ header {
         background-color: #851621; }
     .aboutskills .skills .java {
       font-family: 'Gochi Hand', cursive;
-      font-size: 30px;
+      font-size: 20px;
       color: beige;
       border: solid 2px #851621;
       border-radius: 10px;
@@ -225,7 +225,7 @@ header {
         background-color: #851621; }
     .aboutskills .skills .python {
       font-family: 'Gochi Hand', cursive;
-      font-size: 30px;
+      font-size: 20px;
       color: beige;
       border: solid 2px #851621;
       border-radius: 10px;
@@ -238,7 +238,7 @@ header {
         background-color: #851621; }
     .aboutskills .skills .reactjs {
       font-family: 'Gochi Hand', cursive;
-      font-size: 30px;
+      font-size: 20px;
       color: beige;
       border: solid 2px #851621;
       border-radius: 10px;
@@ -263,7 +263,7 @@ header {
   .services h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     color: whitesmoke;
     padding: 30px;
     text-transform: uppercase;
@@ -277,7 +277,7 @@ header {
     margin-top: 100px; }
     .services .jobs .designer {
       font-family: 'Gochi Hand', cursive;
-      font-size: 40px;
+      font-size: 30px;
       color: #851621; }
       .services .jobs .designer img {
         margin-top: 20px;
@@ -291,7 +291,7 @@ header {
           transform: scale(1.15); }
     .services .jobs .backend {
       font-family: 'Gochi Hand', cursive;
-      font-size: 40px;
+      font-size: 30px;
       color: #851621; }
       .services .jobs .backend img {
         margin-top: 20px;
@@ -305,7 +305,7 @@ header {
           transform: scale(1.15); }
     .services .jobs .frontend {
       font-family: 'Gochi Hand', cursive;
-      font-size: 40px;
+      font-size: 30px;
       color: #851621; }
       .services .jobs .frontend img {
         margin-top: 20px;
@@ -331,7 +331,7 @@ header {
   .portfolio h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     color: whitesmoke;
     padding: 30px;
     text-transform: uppercase;
@@ -396,7 +396,7 @@ header {
   .contact h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     color: whitesmoke;
     padding: 30px;
     text-transform: uppercase;
@@ -405,7 +405,7 @@ header {
     width: 90%;
     height: 400px;
     font-family: 'Gochi Hand', cursive;
-    font-size: 30px;
+    font-size: 20px;
     color: #851621;
     display: flex;
     flex-direction: column;
@@ -420,7 +420,7 @@ header {
       width: 100px;
       height: 40px;
       font-family: 'Gochi Hand', cursive;
-      font-size: 30px;
+      font-size: 20px;
       color: gray;
       border: solid gray 1px;
       border-radius: 5px;
@@ -433,7 +433,7 @@ header {
       width: 120px;
       height: 40px;
       font-family: 'Gochi Hand', cursive;
-      font-size: 30px;
+      font-size: 20px;
       color: gray;
       border: solid gray 1px;
       border-radius: 5px;
@@ -462,7 +462,7 @@ footer {
       margin: 0 10px; }
   footer p {
     font-family: 'Poppins', sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
     color: #851621;
     text-transform: uppercase;
@@ -586,11 +586,11 @@ footer {
         font-size: 30px;
         height: 20px; }
   .aboutskills {
-    height: 750px; }
+    height: 800px; }
     .aboutskills .skills {
       grid-template-columns: repeat(1, 1fr);
       grid-template-rows: 100px;
-      grid-row-gap: 0px; }
+      grid-row-gap: 2px; }
   .services {
     height: 800px; }
     .services h2 {

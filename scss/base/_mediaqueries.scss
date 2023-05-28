@@ -214,11 +214,11 @@
     
 
     .aboutskills{
-        height: 750px;
+        height: 800px;
         .skills{
             grid-template-columns: repeat(1, 1fr);
             grid-template-rows: 100px;
-            grid-row-gap: 0px;
+            grid-row-gap: 2px;
         }
     }
 
