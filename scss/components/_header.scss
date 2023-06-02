@@ -1,37 +1,38 @@
-header{    
+
+header{
     background-color: nth($colores, 2);
     width: 100%;
     height: 70px;
-    @include flex (flex, space-between, center);
-    div{
-        width: 15%;
-        .logo{
-            .titulo{
+    .navbar{
+        width: 100%;
+        .container-fluid{
+            margin-right: 0;
+            .fa-solid{
                 font-family: 'Gochi Hand', cursive;
-                font-weight: 200px;
+                font-size: 50px;
                 color: nth($colores, 3);
                 padding-left: 20px;
                 align-items: start;
             }
-        }
-    }
-    nav{
-        ul{
-            display: flex;
-            width: 70%;
-            li{
-                a{
-                    font-family: 'Gochi Hand', cursive;
-                    font-size: nth($font-size, 3);
-                    color: nth($colores, 4);
-                    margin: 10px 40px 10px;
-                    border: solid nth($colores, 4) 1px;
-                    border-radius: 5px;
-                    padding: 5px;
-                    background: rgba(172, 172, 182, 0.40);
-                    transition: .5s;
-                    &:hover{
-                        color: nth($colores, 3);
+            .collapse{
+                .navbar-nav{
+                    width: 100%;
+                    justify-content: end;
+                    .nav-item{
+                        .nav-link{
+                            font-family: 'Gochi Hand', cursive;
+                            font-size: nth($font-size, 3);
+                            color: nth($colores, 4);
+                            margin: 10px 40px 10px;
+                            border: solid nth($colores, 4) 1px;
+                            border-radius: 5px;
+                            padding: 5px;
+                            background: rgba(172, 172, 182, 0.40);
+                            transition: .5s;
+                            &:hover{
+                                color: nth($colores, 3);
+                            }
+                        }
                     }
                 }
             }

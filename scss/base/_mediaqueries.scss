@@ -8,11 +8,30 @@
         .jobs{
             grid-template-columns: repeat(1, 1fr);
             margin-top: 20px;
+            .backend{
+                h3{
+                    margin-top: 30px;
+                }
+            }
+            .frontend{
+                h3{
+                    margin-top: 30px;
+                }
+            }
         }
     }
 }
 
 @media screen and (max-width: 1000px){
+
+//*----HEADER-----*//
+
+header{
+    .navbar{
+        .container-fluid{
+        }
+    }
+}
 
 //*-----PORTFOLIO-----*//
 
@@ -64,22 +83,8 @@
 
 @media screen and (max-width: 830px){
 
-//*----HEADER-----*//
+//*----INDEX-----*/
 
-    header nav ul li a{
-        display: flex;
-        justify-content: center;
-        font-family: 'Gochi Hand', cursive;
-        font-size: 20px;
-        margin-left: 10px;
-        margin-right: 20px;
-        border: solid rgb(172, 172, 182) 1px;
-        border-radius: 2px;
-    }
-    .titulo{ 
-        font-family: 'Gochi Hand', cursive;
-        font-size: 20px;
-    }
     .enunciado h2{
         font-size: 15px;
     }
@@ -173,15 +178,6 @@
 
 @media screen and (max-width: 600px){
 
-//*----HEADER----*//
-
-    header nav ul li a{
-        font-size: 10px;
-        margin-left: 5px;
-        margin-right: 10px;
-        border: solid rgb(172, 172, 182) 1px;
-    }
-
 //*----ABOUT----*//
     .about{
         flex-direction: column;
@@ -262,14 +258,6 @@
 }
 
 @media screen and (max-width: 400px){
-
-//*----HEADER----*//
-
-    header nav ul li a{
-        font-size: 10px;
-        margin-right: 5px;
-        margin-left: 1px;
-    }
 
 //*----ABOUT----*//
     .about{
