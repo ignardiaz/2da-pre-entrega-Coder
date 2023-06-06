@@ -24,14 +24,6 @@
 
 @media screen and (max-width: 1000px){
 
-//*----HEADER-----*//
-
-header{
-    .navbar{
-        .container-fluid{
-        }
-    }
-}
 
 //*-----PORTFOLIO-----*//
 
@@ -100,6 +92,7 @@ header{
 //*---ABOUT---*//
     .about{
         .picture{
+            margin-left: 10px;
             img{
                 width: 200px;
                 height: 300px;
@@ -185,7 +178,7 @@ header{
         .picture{
             width: 300px;
             height: 200px;
-            margin: 50px 50% 0;
+            margin-left: 20px;
             img{
                 width: 300px;
                 height: 200px;
