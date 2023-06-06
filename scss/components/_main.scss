@@ -39,7 +39,6 @@
             }
         }
     }
-
     .bienvenida{
         background-color: nth($colores, 7);
         width: 100%;
@@ -129,7 +128,6 @@
     }
 }
 
-
 .aboutskills{
     background-color: nth($colores, 5);
     width: 100%;
@@ -143,7 +141,6 @@
         text-transform: uppercase;
         letter-spacing: 5px;
     }
-
     .skills{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -442,7 +439,6 @@
         text-transform: uppercase;
         letter-spacing: 5px;
     }
-
     form{
         justify-content: center;
         align-items: center;
@@ -460,7 +456,7 @@
                 margin-bottom: 10px;
                 padding: 10px;
                 border-radius: 5px;
-                border: solid 1px nth($colores, 5);
+                border: solid 1px nth($colores, 2);
             }
             p{
                 text-align: center;
@@ -474,6 +470,8 @@
             }
             textarea{
                 width: 100%;
+                border-radius: 10px;
+                border: solid 2px nth($colores, 2);
             }
             .botones{
                 width: 100%;
@@ -481,7 +479,7 @@
                 background-color: nth($colores, 5);
                 font-family: 'Gochi Hand', cursive;
                 color: nth($colores, 1);
-                font-size: nth($font-size, 1);
+                font-size: nth($font-size, 2);
                 border: solid 2px nth($colores, 2);
                 border-radius: 5px;
                 text-transform: uppercase;
