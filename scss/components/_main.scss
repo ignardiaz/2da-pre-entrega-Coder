@@ -428,7 +428,7 @@
 .contact{
     background-image: url("../img/porfin.jpg");
     width: 100%;
-    height: 800px;
+    height: 900px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -443,52 +443,50 @@
         letter-spacing: 5px;
     }
 
-/*---------- Bootstrap-------*/
-
-    .input{
-        width: 90%;
-        height: 400px;
-        font-family: 'Gochi Hand', cursive;
-        font-size: nth($font-size, 3);
-        color: nth($colores, 3);
-        display: flex;
+    form{
         justify-content: center;
-        flex-direction: column;
         align-items: center;
-        .mb-3{
-            width: 300px;
-            height: 200px;
-        }
-        .mb-4{
-            width: 300px;
-            height: 200px;
-        }
-        .botones{
-            .submit{
-                width: 100px;
-                height: 40px;
-                font-family: 'Gochi Hand', cursive;
-                font-size: nth($font-size, 3);
-                color: nth($colores, 5);
-                border: solid nth($colores, 5) 1px;
+        .formulario{
+            width: 500px;
+            background: rgba(172, 172, 182, 0.40);
+            padding: 30px;
+            margin: auto;
+            border-radius: 10px;
+            font-family: 'Gochi Hand', cursive;
+            font-size: nth($font-size, 3);
+            color: nth($colores, 3);
+            .controls{
+                width: 100%;
+                margin-bottom: 10px;
+                padding: 10px;
                 border-radius: 5px;
-                padding: 5px;
-                background: rgba(172, 172, 182, 0.40);
-                transition: .5s;
-                &:hover{
-                    color: nth($colores, 3);
-                }
+                border: solid 1px nth($colores, 5);
             }
-            .reset{
-                width: 120px;
-                height: 40px;
-                font-family: 'Gochi Hand', cursive;
+            p{
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
                 font-size: nth($font-size, 3);
-                color: nth($colores, 5);
-                border: solid nth($colores, 5) 1px;
-                border-radius: 5px;
+                color: nth($colores, 3);
                 padding: 5px;
-                background: rgba(172, 172, 182, 0.40);
+                margin-top: 10px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+            textarea{
+                width: 100%;
+            }
+            .botones{
+                width: 100%;
+                height: 40px;
+                background-color: nth($colores, 5);
+                font-family: 'Gochi Hand', cursive;
+                color: nth($colores, 1);
+                font-size: nth($font-size, 1);
+                border: solid 2px nth($colores, 2);
+                border-radius: 5px;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                padding: 5px 0;
                 transition: .5s;
                 &:hover{
                     color: nth($colores, 3);

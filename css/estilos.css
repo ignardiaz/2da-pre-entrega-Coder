@@ -390,12 +390,11 @@ header {
 .contact {
   background-image: url("../img/porfin.jpg");
   width: 100%;
-  height: 800px;
+  height: 900px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
-  /*---------- Bootstrap-------*/ }
+  background-attachment: fixed; }
   .contact h1 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -404,48 +403,50 @@ header {
     padding: 30px;
     text-transform: uppercase;
     letter-spacing: 5px; }
-  .contact .input {
-    width: 90%;
-    height: 400px;
-    font-family: 'Gochi Hand', cursive;
-    font-size: 20px;
-    color: #851621;
-    display: flex;
+  .contact form {
     justify-content: center;
-    flex-direction: column;
     align-items: center; }
-    .contact .input .mb-3 {
-      width: 300px;
-      height: 200px; }
-    .contact .input .mb-4 {
-      width: 300px;
-      height: 200px; }
-    .contact .input .botones .submit {
-      width: 100px;
-      height: 40px;
+    .contact form .formulario {
+      width: 500px;
+      background: rgba(172, 172, 182, 0.4);
+      padding: 30px;
+      margin: auto;
+      border-radius: 10px;
       font-family: 'Gochi Hand', cursive;
       font-size: 20px;
-      color: gray;
-      border: solid gray 1px;
-      border-radius: 5px;
-      padding: 5px;
-      background: rgba(172, 172, 182, 0.4);
-      transition: .5s; }
-      .contact .input .botones .submit:hover {
-        color: #851621; }
-    .contact .input .botones .reset {
-      width: 120px;
-      height: 40px;
-      font-family: 'Gochi Hand', cursive;
-      font-size: 20px;
-      color: gray;
-      border: solid gray 1px;
-      border-radius: 5px;
-      padding: 5px;
-      background: rgba(172, 172, 182, 0.4);
-      transition: .5s; }
-      .contact .input .botones .reset:hover {
-        color: #851621; }
+      color: #851621; }
+      .contact form .formulario .controls {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        border: solid 1px gray; }
+      .contact form .formulario p {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        color: #851621;
+        padding: 5px;
+        margin-top: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px; }
+      .contact form .formulario textarea {
+        width: 100%; }
+      .contact form .formulario .botones {
+        width: 100%;
+        height: 40px;
+        background-color: gray;
+        font-family: 'Gochi Hand', cursive;
+        color: whitesmoke;
+        font-size: 10px;
+        border: solid 2px black;
+        border-radius: 5px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        padding: 5px 0;
+        transition: .5s; }
+        .contact form .formulario .botones:hover {
+          color: #851621; }
 
 footer {
   background-color: black;
@@ -602,7 +603,9 @@ footer {
       font-size: 20px; }
     .services .jobs .frontend img {
       width: 300px;
-      height: 150px; } }
+      height: 150px; }
+  .contact form .formulario {
+    width: 320px; } }
 
 @media screen and (max-width: 400px) {
   .about .picture {

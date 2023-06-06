@@ -57,23 +57,17 @@
     <main>
         <section class="contact">
             <h1>CONTACT</h1>
-            <!--INICIO DE BOOTSTRAP-->
-            <div class="input">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com">
+            <form action="mailto:ignardiaz@gmail.com">
+                <div class="formulario">
+                    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+                    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+                    <input class="controls" type="email" name="email" id="email" placeholder="Correo Electrónico">
+                    <p>¡CUÉNTANOS TU PROYECTO!</p>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <input class="botones" type="submit">
+                    <input class="botones" type="reset">
                 </div>
-                <div class="mb-4">
-                    <label for="exampleFormControlTextarea1" class="form-label">¡Cuéntanos tu idea!</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div class="botones">
-                    <input class="submit" type="Submit">
-                    <input class="reset" type="reset">
-                </div>
-            </div>
-            <!-- FIN DE BOOTSTRAP -->
+            </form>
         </section>
     </main>
     <footer>
