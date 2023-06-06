@@ -63,24 +63,31 @@ header {
     .principal .hero h1 {
       font-family: 'Poppins', sans-serif;
       color: whitesmoke;
-      font-size: 20px;
+      font-size: 40px;
       justify-content: center;
-      padding-top: 200px;
+      padding-top: 50px;
       text-transform: uppercase;
       letter-spacing: 5px; }
     .principal .hero .enunciado {
       font-family: 'Gochi Hand', cursive;
-      width: 80%;
+      width: 100%;
       height: 200px;
       margin: auto;
-      padding-top: 50px;
+      margin-top: 100px;
+      padding-top: 100px;
       display: flex;
       justify-content: center;
-      align-items: center;
-      font-size: 30px; }
-      .principal .hero .enunciado h2 span {
-        font-size: 30px;
-        color: #851621; }
+      align-items: center; }
+      .principal .hero .enunciado img {
+        width: 400px;
+        height: 300px; }
+      .principal .hero .enunciado h2 {
+        font-size: 60px;
+        width: 40%;
+        margin-left: 50px; }
+        .principal .hero .enunciado h2 span {
+          font-size: 40px;
+          color: #851621; }
   .principal .bienvenida {
     background-color: white;
     width: 100%;
@@ -113,20 +120,13 @@ header {
   text-align: center;
   display: flex;
   justify-content: space-evenly; }
-  .about .picture {
-    margin-left: auto; }
-    .about .picture img {
-      width: 300px;
-      height: 300px;
-      border: solid gray;
-      border-radius: 50%;
-      margin: 90px 0 30px 100px; }
   .about .descripcion {
     width: 45%;
+    height: 700px;
     display: flex;
     flex-direction: column;
     margin-top: 200px;
-    margin-left: 20px; }
+    margin-left: 50px; }
     .about .descripcion h1 {
       height: 50px;
       font-family: 'Gochi Hand', cursive;
@@ -154,6 +154,15 @@ header {
       transition: .5s; }
       .about .descripcion button:hover {
         color: #851621; }
+  .about .picture {
+    width: 550px;
+    height: 300px;
+    margin-top: 100px;
+    margin-right: 50px;
+    padding-left: 0px; }
+    .about .picture img {
+      width: 550px;
+      height: 300px; }
 
 .aboutskills {
   background-color: gray;
@@ -339,51 +348,45 @@ header {
     padding: 30px;
     text-transform: uppercase;
     letter-spacing: 5px; }
-  .portfolio .por .onetwo {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr); }
-    .portfolio .por .onetwo .apple a img {
-      width: 350px;
-      height: 250px;
-      border: solid black;
-      border-radius: 20px;
-      margin-top: 20px;
-      margin-left: 150px;
-      transition: all .3s; }
-      .portfolio .por .onetwo .apple a img:hover {
-        transform: scale(1.15); }
-    .portfolio .por .onetwo .samsung a img {
-      width: 350px;
-      height: 250px;
-      border: solid black;
-      border-radius: 20px;
-      margin-top: 20px;
-      margin-left: 100px;
-      transition: all .3s; }
-      .portfolio .por .onetwo .samsung a img:hover {
-        transform: scale(1.15); }
-    .portfolio .por .onetwo .despegar a img {
-      width: 350px;
-      height: 250px;
-      border: solid black;
-      border-radius: 20px;
-      margin-top: 50px;
-      margin-left: 150px;
-      margin-bottom: 50px;
-      transition: all .3s; }
-      .portfolio .por .onetwo .despegar a img:hover {
-        transform: scale(1.15); }
-    .portfolio .por .onetwo .amazon a img {
-      width: 350px;
-      height: 250px;
-      border: solid black;
-      border-radius: 20px;
-      margin-top: 50px;
-      margin-left: 100px;
-      margin-bottom: 50px;
-      transition: all .3s; }
-      .portfolio .por .onetwo .amazon a img:hover {
-        transform: scale(1.15); }
+  .portfolio .por {
+    margin-top: 50px; }
+    .portfolio .por .onetwo {
+      display: grid;
+      place-items: center;
+      gap: 30px;
+      grid-template-columns: repeat(2, 2fr); }
+      .portfolio .por .onetwo .apple a img {
+        width: 450px;
+        height: 300px;
+        border: solid whitesmoke;
+        border-radius: 20px;
+        transition: all .3s; }
+        .portfolio .por .onetwo .apple a img:hover {
+          transform: scale(1.15); }
+      .portfolio .por .onetwo .samsung a img {
+        width: 450px;
+        height: 300px;
+        border: solid whitesmoke;
+        border-radius: 20px;
+        transition: all .3s; }
+        .portfolio .por .onetwo .samsung a img:hover {
+          transform: scale(1.15); }
+      .portfolio .por .onetwo .despegar a img {
+        width: 450px;
+        height: 300px;
+        border: solid whitesmoke;
+        border-radius: 20px;
+        transition: all .3s; }
+        .portfolio .por .onetwo .despegar a img:hover {
+          transform: scale(1.15); }
+      .portfolio .por .onetwo .amazon a img {
+        width: 450px;
+        height: 300px;
+        border: solid whitesmoke;
+        border-radius: 20px;
+        transition: all .3s; }
+        .portfolio .por .onetwo .amazon a img:hover {
+          transform: scale(1.15); }
 
 /*--------FIN MAIN PORTFOLIO-----*/
 /*--------INICIO MAIN CONTACTO-------*/
@@ -480,52 +483,69 @@ footer {
     height: 1000px; }
     .services .jobs {
       grid-template-columns: repeat(1, 1fr);
-      margin-top: 20px; }
-      .services .jobs .backend h3 {
-        margin-top: 30px; }
-      .services .jobs .frontend h3 {
-        margin-top: 30px; } }
+      margin-top: 50px; }
+      .services .jobs .backend h2 {
+        margin-top: 20px; }
+      .services .jobs .frontend h2 {
+        margin-top: 20px; } }
 
 @media screen and (max-width: 1000px) {
+  .about {
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    .about .descripcion {
+      margin-top: 20px; }
+    .about .picture {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      height: 300px; }
+      .about .picture img {
+        width: 350px;
+        height: 200px; }
   .portfolio .por .onetwo .apple a img {
-    margin-left: 100px;
-    width: 300px;
+    width: 350px;
     height: 200px; }
   .portfolio .por .onetwo .samsung a img {
-    margin-left: 0;
-    width: 300px;
+    width: 350px;
     height: 200px; }
-  .portfolio .por .onetwo .despegar {
-    height: 230px; }
-    .portfolio .por .onetwo .despegar a img {
-      margin-left: 100px;
-      width: 300px;
-      height: 200px; }
+  .portfolio .por .onetwo .despegar a img {
+    width: 350px;
+    height: 200px; }
   .portfolio .por .onetwo .amazon a img {
-    margin-left: 0;
-    width: 300px;
+    width: 350px;
     height: 200px; } }
 
 @media screen and (max-width: 830px) {
-  .enunciado h2 {
-    font-size: 15px; }
-  .bienvenida {
+  .principal .hero {
+    width: 100%; }
+    .principal .hero h1 {
+      font-size: 20px; }
+    .principal .hero .enunciado {
+      flex-direction: column; }
+      .principal .hero .enunciado img {
+        width: 300px;
+        height: 200px;
+        margin-bottom: 80px; }
+      .principal .hero .enunciado h2 {
+        font-size: 40px;
+        width: 90%; }
+        .principal .hero .enunciado h2 span {
+          font-size: 20px; }
+  .principal .bienvenida {
     flex-direction: column;
     align-items: center;
     margin-top: 10px; }
-    .bienvenida p {
+    .principal .bienvenida .imagen img {
+      width: 250px;
+      height: 200px;
+      border-radius: 20%; }
+    .principal .bienvenida p {
       font-size: 20px; }
-  .about .picture {
-    margin-left: 10px; }
-    .about .picture img {
-      width: 200px;
-      height: 300px; }
   .about .descripcion {
-    flex-direction: column;
-    height: 300px;
-    width: 400px; }
-    .about .descripcion h2 {
-      height: 70px; }
+    width: 90%; }
   .aboutskills h2 {
     height: 70px;
     font-size: 30px;
@@ -533,54 +553,41 @@ footer {
   .aboutskills .skills {
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 5px; }
-  .portfolio {
-    height: 1200px; }
-    .portfolio .por .onetwo {
-      grid-template-columns: repeat(1, 1fr); }
-      .portfolio .por .onetwo .apple {
-        margin: 5px; }
-        .portfolio .por .onetwo .apple a img {
-          width: 250px;
-          height: 200px; }
-      .portfolio .por .onetwo .samsung {
-        margin: 5px 0 5px 100px; }
-        .portfolio .por .onetwo .samsung a img {
-          width: 250px;
-          height: 200px; }
-      .portfolio .por .onetwo .despegar {
-        margin: 0; }
-        .portfolio .por .onetwo .despegar a img {
-          width: 250px;
-          height: 200px; }
-      .portfolio .por .onetwo .amazon {
-        margin: 5px 0 5px 100px; }
-        .portfolio .por .onetwo .amazon a img {
-          width: 250px;
-          height: 200px; } }
+  .portfolio h1 {
+    font-size: 20px; }
+  .portfolio .por .onetwo {
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center; }
+    .portfolio .por .onetwo .apple a img {
+      width: 330px;
+      height: 180px; }
+    .portfolio .por .onetwo .samsung a img {
+      width: 330px;
+      height: 180px; }
+    .portfolio .por .onetwo .despegar a img {
+      width: 330px;
+      height: 180px; }
+    .portfolio .por .onetwo .amazon a img {
+      width: 330px;
+      height: 180px; } }
 
 @media screen and (max-width: 600px) {
-  .about {
-    flex-direction: column;
+  .about .descripcion {
+    width: 90%;
+    margin: auto;
+    justify-content: center;
     align-items: center; }
-    .about .picture {
+    .about .descripcion h1 {
+      font-size: 30px;
+      height: 40px; }
+    .about .descripcion h2 {
+      font-size: 30px;
+      height: 20px; }
+  .about .picture {
+    width: 90%; }
+    .about .picture img {
       width: 300px;
-      height: 200px;
-      margin-left: 20px; }
-      .about .picture img {
-        width: 300px;
-        height: 200px;
-        margin: 0px 50px 50px 0; }
-    .about .descripcion {
-      flex-direction: column;
-      align-items: center;
-      height: 200px;
-      margin-top: 5px; }
-      .about .descripcion h2 {
-        font-size: 30px;
-        height: 40px; }
-      .about .descripcion h3 {
-        font-size: 30px;
-        height: 20px; }
+      height: 200px; }
   .aboutskills {
     height: 800px; }
     .aboutskills .skills {
@@ -589,19 +596,19 @@ footer {
       grid-row-gap: 2px; }
   .services {
     height: 800px; }
-    .services h2 {
+    .services h1 {
       font-size: 30px; }
-    .services .jobs .designer h3 {
+    .services .jobs .designer h2 {
       font-size: 20px; }
     .services .jobs .designer img {
       width: 300px;
       height: 150px; }
-    .services .jobs .backend h3 {
+    .services .jobs .backend h2 {
       font-size: 20px; }
     .services .jobs .backend img {
       width: 300px;
       height: 150px; }
-    .services .jobs .frontend h3 {
+    .services .jobs .frontend h2 {
       font-size: 20px; }
     .services .jobs .frontend img {
       width: 300px;
@@ -610,17 +617,18 @@ footer {
     width: 320px; } }
 
 @media screen and (max-width: 400px) {
-  .about .picture {
-    width: 250px;
-    height: 150px;
-    margin: 50px 50% 0; }
-    .about .picture img {
-      width: 250px;
-      height: 150px;
-      margin: 0px 50px 50px 0; }
+  .about {
+    justify-content: center;
+    align-items: center; }
+    .about .picture {
+      width: 90%;
+      height: 150px; }
+      .about .picture img {
+        width: 250px;
+        height: 150px; }
   .services {
     height: 800px; }
-    .services h2 {
+    .services h1 {
       font-size: 20px; }
     .services .jobs .designer img {
       width: 250px;
@@ -631,27 +639,15 @@ footer {
     .services .jobs .frontend img {
       width: 250px;
       height: 150px; }
-  .portfolio {
-    height: 1000px; }
-    .portfolio .por .onetwo {
-      grid-template-columns: repeat(1, 1fr); }
-      .portfolio .por .onetwo .apple {
-        margin: 5px; }
-        .portfolio .por .onetwo .apple a img {
-          width: 200px;
-          height: 150px; }
-      .portfolio .por .onetwo .samsung {
-        margin: 5px 0 5px 100px; }
-        .portfolio .por .onetwo .samsung a img {
-          width: 200px;
-          height: 150px; }
-      .portfolio .por .onetwo .despegar {
-        margin: 0; }
-        .portfolio .por .onetwo .despegar a img {
-          width: 200px;
-          height: 150px; }
-      .portfolio .por .onetwo .amazon {
-        margin: 5px 0 5px 100px; }
-        .portfolio .por .onetwo .amazon a img {
-          width: 200px;
-          height: 150px; } }
+  .portfolio .por .onetwo .apple a img {
+    width: 300px;
+    height: 150px; }
+  .portfolio .por .onetwo .samsung a img {
+    width: 300px;
+    height: 150px; }
+  .portfolio .por .onetwo .despegar a img {
+    width: 300px;
+    height: 150px; }
+  .portfolio .por .onetwo .amazon a img {
+    width: 300px;
+    height: 150px; } }
