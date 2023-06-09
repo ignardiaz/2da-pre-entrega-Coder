@@ -39,7 +39,7 @@
             margin-bottom: 20px;
             height: 300px;
             img{
-                width: 350px;
+                width: 300px;
                 height: 200px;
             }
         }
@@ -97,7 +97,7 @@
         .hero{
             width: 100%;
             h1{
-                font-size: 20px;
+                font-size: nth($font-size, 3);
             }
             .enunciado{
                 flex-direction: column;
@@ -107,10 +107,10 @@
                     margin-bottom: 80px;
                 }
                 h2{
-                    font-size: 40px;
+                    font-size: nth($font-size, 5);
                     width: 90%;
                     span{
-                        font-size: 20px;
+                        font-size: nth($font-size, 3);
                     }
                 }
             }
@@ -121,13 +121,14 @@
             margin-top: 10px;
             .imagen{
                 img{
-                    width: 250px;
-                    height: 200px;
-                    border-radius: 20%;
+                    width: 200px;
+                    height: 150px;
+                    border-radius: 30%;
+                    max-width: 100%;
                 }
             }
             p{
-                font-size: 20px;
+                font-size: nth($font-size, 3);
             }
         }
     }
@@ -142,7 +143,7 @@
     .aboutskills{
         h2{
             height: 70px;
-            font-size: 30px;
+            font-size: nth($font-size, 4);
             padding: 10px;
         }
         .skills{
@@ -155,7 +156,7 @@
 
     .portfolio{
         h1{
-            font-size: 20px;
+            font-size: nth($font-size, 3);
         }
         .por{
             .onetwo{
@@ -208,19 +209,19 @@
             justify-content: center;
             align-items: center;
             h1{
-                font-size: 30px;
+                font-size: nth($font-size, 4);
                 height: 40px;
             }
             h2{
-                font-size: 30px;
+                font-size: nth($font-size, 4);
                 height: 20px;
             }
         }
         .picture{
             width: 90%;
             img{
-                width: 300px;
-                height: 200px;
+                width: 250px;
+                height: 150px;
             }
         }
     }
@@ -238,12 +239,12 @@
     .services{
         height: 800px;
         h1{
-            font-size: 30px;
+            font-size: nth($font-size, 4);
         }
         .jobs{
             .designer{
                 h2{
-                    font-size: 20px;
+                    font-size: nth($font-size, 3);
                 }
                 img{
                     width: 300px;
@@ -252,7 +253,7 @@
             }
             .backend{
                 h2{
-                    font-size: 20px;
+                    font-size: nth($font-size, 3);
                 }
                 img{
                     width: 300px;
@@ -261,7 +262,7 @@
             }
             .frontend{
                 h2{
-                    font-size: 20px;
+                    font-size: nth($font-size, 3);
                 }
                 img{
                     width: 300px;
@@ -301,7 +302,7 @@
     .services{
         height: 800px;
         h1{
-            font-size: 20px;
+            font-size: nth($font-size, 3);
         }
         .jobs{
             .designer{

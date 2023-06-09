@@ -7,11 +7,11 @@ header{
         width: 100%;
         margin-top: 1px;
         .container-fluid{
-            background: black;
+            background: nth($colores, 2);
             a{
                 .fa-solid{
                     font-family: 'Gochi Hand', cursive;
-                    font-size: 50px;
+                    font-size: nth($font-size, 6);
                     color: nth($colores, 3);
                     padding-left: 20px;
                     align-items: start;
