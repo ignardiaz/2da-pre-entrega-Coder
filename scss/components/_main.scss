@@ -166,12 +166,15 @@
             border: solid 2px nth($colores, 3);
             border-radius: 10px;
             text-align: center;
+            place-items: center;
             flex: 1;
-            transition: .3s all ease;
+            transition: .8s all ease;
             margin-left: 10px;
             &:hover{
                 flex: 2;
                 background-color: nth($colores, 3);
+            }
+            h4{
             }
         }
         .css{
@@ -182,7 +185,7 @@
             border-radius: 10px;
             text-align: center;
             flex: 1;
-            transition: .3s all ease;
+            transition: .8s all ease;
             margin-left: 10px;
             &:hover{
                 flex: 2;
@@ -197,7 +200,7 @@
             border-radius: 10px;
             text-align: center;
             flex: 1;
-            transition: .3s all ease;
+            transition: .8s all ease;
             margin-left: 10px;
             &:hover{
                 flex: 2;
@@ -212,7 +215,7 @@
             border-radius: 10px;
             text-align: center;
             flex: 1;
-            transition: .3s all ease;
+            transition: .8s all ease;
             margin-left: 10px;
             &:hover{
                 flex: 2;
@@ -227,7 +230,7 @@
             border-radius: 10px;
             text-align: center;
             flex: 1;
-            transition: .3s all ease;
+            transition: .8s all ease;
             margin-left: 10px;
             &:hover{
                 flex: 2;
@@ -242,7 +245,7 @@
             border-radius: 10px;
             text-align: center;
             flex: 1;
-            transition: .3s all ease;
+            transition: .8s all ease;
             margin-left: 10px;
             &:hover{
                 flex: 2;
