@@ -50,11 +50,11 @@
         background-color: nth($colores, 7);
         width: 100%;
         font-family: 'Gochi Hand', cursive;
-        font-size: nth($font-size, 5);
+        font-size: nth($font-size, 6);
         color: nth($colores, 2);
         display: flex;
         justify-content:space-evenly;
-        margin-top: 50px;
+        margin-top: 30px;
         div{
             img{
                 width: 300px;

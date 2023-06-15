@@ -121,10 +121,10 @@
             margin-top: 10px;
             .imagen{
                 img{
-                    width: 200px;
+                    width: 115px;
                     height: 150px;
                     border-radius: 30%;
-                    max-width: 100%;
+                    object-fit: contain;
                 }
             }
             p{
